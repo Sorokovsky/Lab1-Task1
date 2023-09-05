@@ -10,9 +10,9 @@ int main(void) {
 	scanf_s("%c", &ch, 1);
 	printf("\t The symbol is:%c \n", ch);
 	printf("\n \t Enter any string:");
+	_flushall(); // для усунення порожнього рядка
 	scanf_s("%s", str, 79);
 	printf("\t The string is:%2s \n", str);
-	_flushall(); // для усунення порожнього рядка
 	printf("\t Enter a real number a:");
 	scanf_s("%f", &a);
 	printf("\t Enter a real number b:");
