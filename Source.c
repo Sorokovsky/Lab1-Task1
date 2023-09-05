@@ -18,7 +18,7 @@ int main(void) {
 	printf("\t Enter a real number b:");
 	scanf_s("%f", &b);
 	c = a + b;
-	puts("\t The sum %1.2f and %1.2f (as float) is equal:%1.4f \n", a, b, c);
+	printf("\t The sum %1.2f and %1.2f (as float) is equal:%1.4f \n", a, b, c);
 	printf("\t Enter a real number A:");
 	scanf_s("%lf", &A);
 	printf("\t Enter a real number B:");
@@ -26,4 +26,4 @@ int main(void) {
 	C = A + B;
 	printf("\t The sum %1.2f and %1.2f (as double) is equal:%1.4f \n", A, B, C);
 
-}
+}
